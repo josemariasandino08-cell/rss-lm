@@ -3,40 +3,40 @@
     <channel>
         <!-- Información principal del canal -->
         <title>Noticias sobre Videojuegos y Hardware</title>
-        <link>https://www.ejemplo-gaming.es</link>
+        <link>https://www.vidaextra.com</link>
         <description>Feed RSS con las últimas novedades sobre lanzamientos, análisis y tecnología para videojuegos.</description>
         <language>es-es</language>
-        <lastBuildDate>Tue, 17 Nov 2026 08:13:00 +0100</lastBuildDate>
-        <atom:link href="https://www.ejemplo-gaming.es/feed.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Tue, 17 Nov 2026 08:56:00 +0100</lastBuildDate>
+        <atom:link href="https://www.vidaextra.com/feed.xml" rel="self" type="application/rss+xml" />
 
         <!-- Elemento 1 -->
         <item>
-            <title>Análisis de la nueva generación de tarjetas gráficas</title>
-            <link>https://www.ejemplo-gaming.es/analisis-graficas</link>
-            <guid isPermaLink="true">https://www.ejemplo-gaming.es/analisis-graficas</guid>
+            <title>Análisis y comparativa de tarjetas gráficas para jugar en 4K</title>
+            <link>https://www.xataka.com/componentes/mejores-tarjetas-graficas-cual-comprar</link>
+            <guid isPermaLink="true">https://www.xataka.com/componentes/mejores-tarjetas-graficas-cual-comprar</guid>
             <pubDate>Mon, 16 Nov 2026 12:00:00 +0100</pubDate>
             <category>Hardware</category>
-            <description>Ponemos a prueba el rendimiento en 4K y el consumo energético de los últimos modelos del mercado.</description>
+            <description>Repasamos el rendimiento, tecnologías de reescalado y consumo energético de las principales GPU del mercado.</description>
         </item>
 
         <!-- Elemento 2 -->
         <item>
-            <title>Los 5 juegos indie más destacados del mes</title>
-            <link>https://www.ejemplo-gaming.es/indies-mes</link>
-            <guid isPermaLink="true">https://www.ejemplo-gaming.es/indies-mes</guid>
+            <title>Los juegos indie más destacados para PC y consolas</title>
+            <link>https://www.vidaextra.com/listas/mejores-juegos-indie-historia-pc-consolas</link>
+            <guid isPermaLink="true">https://www.vidaextra.com/listas/mejores-juegos-indie-historia-pc-consolas</guid>
             <pubDate>Fri, 13 Nov 2026 18:30:00 +0100</pubDate>
             <category>Videojuegos</category>
-            <description>Repasamos las propuestas independientes más originales que han llegado recientemente a PC y consolas.</description>
+            <description>Una selección con las propuestas independientes más originales y valoradas por la crítica.</description>
         </item>
 
         <!-- Elemento 3 -->
         <item>
-            <title>Guía para optimizar la latencia en juegos competitivos</title>
-            <link>https://www.ejemplo-gaming.es/guia-latencia</link>
-            <guid isPermaLink="true">https://www.ejemplo-gaming.es/guia-latencia</guid>
+            <title>Guía para mejorar el ping y reducir la latencia en juegos online</title>
+            <link>https://www.3djuegos.com/guias/como-bajar-ping-mejorar-latencia-juegos-online</link>
+            <guid isPermaLink="true">https://www.3djuegos.com/guias/como-bajar-ping-mejorar-latencia-juegos-online</guid>
             <pubDate>Tue, 10 Nov 2026 11:15:00 +0100</pubDate>
             <category>Guías</category>
-            <description>Ajustes recomendados en el router, el sistema operativo y la configuración gráfica para reducir el retardo.</description>
+            <description>Consejos prácticos sobre configuración de red, cableado y ajustes para reducir el retardo en partidas competitivas.</description>
         </item>
     </channel>
 </rss>
