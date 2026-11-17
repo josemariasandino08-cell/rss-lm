@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <!-- Información principal del canal -->
+        <title>Noticias sobre Videojuegos y Hardware</title>
+        <link>https://www.ejemplo-gaming.es</link>
+        <description>Feed RSS con las últimas novedades sobre lanzamientos, análisis y tecnología para videojuegos.</description>
+        <language>es-es</language>
+        <lastBuildDate>Tue, 17 Nov 2026 08:13:00 +0100</lastBuildDate>
+        <atom:link href="https://www.ejemplo-gaming.es/feed.xml" rel="self" type="application/rss+xml" />
+
+        <!-- Elemento 1 -->
+        <item>
+            <title>Análisis de la nueva generación de tarjetas gráficas</title>
+            <link>https://www.ejemplo-gaming.es/analisis-graficas</link>
+            <guid isPermaLink="true">https://www.ejemplo-gaming.es/analisis-graficas</guid>
+            <pubDate>Mon, 16 Nov 2026 12:00:00 +0100</pubDate>
+            <category>Hardware</category>
+            <description>Ponemos a prueba el rendimiento en 4K y el consumo energético de los últimos modelos del mercado.</description>
+        </item>
+
+        <!-- Elemento 2 -->
+        <item>
+            <title>Los 5 juegos indie más destacados del mes</title>
+            <link>https://www.ejemplo-gaming.es/indies-mes</link>
+            <guid isPermaLink="true">https://www.ejemplo-gaming.es/indies-mes</guid>
+            <pubDate>Fri, 13 Nov 2026 18:30:00 +0100</pubDate>
+            <category>Videojuegos</category>
+            <description>Repasamos las propuestas independientes más originales que han llegado recientemente a PC y consolas.</description>
+        </item>
+
+        <!-- Elemento 3 -->
+        <item>
+            <title>Guía para optimizar la latencia en juegos competitivos</title>
+            <link>https://www.ejemplo-gaming.es/guia-latencia</link>
+            <guid isPermaLink="true">https://www.ejemplo-gaming.es/guia-latencia</guid>
+            <pubDate>Tue, 10 Nov 2026 11:15:00 +0100</pubDate>
+            <category>Guías</category>
+            <description>Ajustes recomendados en el router, el sistema operativo y la configuración gráfica para reducir el retardo.</description>
+        </item>
+    </channel>
+</rss>
