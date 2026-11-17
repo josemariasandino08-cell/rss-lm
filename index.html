@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noticias sobre Videojuegos y Hardware</title>
     <!-- Enlace de autodescubrimiento al feed RSS -->
-    <link rel="alternate" type="application/rss+xml" title="Feed RSS - Videojuegos y Hardware" href="feed_videojuegos.xml">
+    <link rel="alternate" type="application/rss+xml" title="Feed RSS - Videojuegos y Hardware" href="feed_videojuegos-v2.xml">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -48,18 +48,35 @@
         }
         article h2 {
             margin-top: 0;
+        }
+        article h2 a {
             color: #1a1a1a;
+            text-decoration: none;
+        }
+        article h2 a:hover {
+            color: #f26522;
+            text-decoration: underline;
         }
         .meta {
             font-size: 0.9em;
             color: #666;
             margin-bottom: 10px;
         }
+        .read-more {
+            display: inline-block;
+            margin-top: 8px;
+            color: #f26522;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .read-more:hover {
+            text-decoration: underline;
+        }
         footer {
             text-align: center;
             margin-top: 30px;
             font-size: 0.9em;
-            color:#777;
+            color: #777;
         }
     </style>
 </head>
@@ -68,31 +85,34 @@
     <header>
         <h1>Noticias sobre Videojuegos y Hardware</h1>
         <p>Las últimas novedades sobre lanzamientos, análisis y tecnología para videojuegos.</p>
-        <a href="feed_videojuegos.xml" class="rss-link">Suscribirse al Feed RSS</a>
+        <a href="feed_videojuegos-v2.xml" class="rss-link">Suscribirse al Feed RSS</a>
     </header>
 
     <main>
         <article>
-            <h2>Análisis de la nueva generación de tarjetas gráficas</h2>
+            <h2><a href="https://www.xataka.com/componentes/mejores-tarjetas-graficas-cual-comprar" target="_blank" rel="noopener noreferrer">Análisis y comparativa de tarjetas gráficas para jugar en 4K</a></h2>
             <p class="meta">Publicado el 16 de noviembre de 2026 | Categoría: <strong>Hardware</strong></p>
-            <p>Ponemos a prueba el rendimiento en 4K y el consumo energético de los últimos modelos del mercado.</p>
+            <p>Repasamos el rendimiento, tecnologías de reescalado y consumo energético de las principales GPU del mercado.</p>
+            <a href="https://www.xataka.com/componentes/mejores-tarjetas-graficas-cual-comprar" target="_blank" rel="noopener noreferrer" class="read-more">Leer noticia completa &rarr;</a>
         </article>
 
         <article>
-            <h2>Los 5 juegos indie más destacados del mes</h2>
+            <h2><a href="https://www.vidaextra.com/listas/mejores-juegos-indie-historia-pc-consolas" target="_blank" rel="noopener noreferrer">Los juegos indie más destacados para PC y consolas</a></h2>
             <p class="meta">Publicado el 13 de noviembre de 2026 | Categoría: <strong>Videojuegos</strong></p>
-            <p>Repasamos las propuestas independientes más originales que han llegado recientemente a PC y consolas.</p>
+            <p>Una selección con las propuestas independientes más originales y valoradas por la crítica.</p>
+            <a href="https://www.vidaextra.com/listas/mejores-juegos-indie-historia-pc-consolas" target="_blank" rel="noopener noreferrer" class="read-more">Leer noticia completa &rarr;</a>
         </article>
 
         <article>
-            <h2>Guía para optimizar la latencia en juegos competitivos</h2>
+            <h2><a href="https://www.3djuegos.com/guias/como-bajar-ping-mejorar-latencia-juegos-online" target="_blank" rel="noopener noreferrer">Guía para mejorar el ping y reducir la latencia en juegos online</a></h2>
             <p class="meta">Publicado el 10 de noviembre de 2026 | Categoría: <strong>Guías</strong></p>
-            <p>Ajustes recomendados en el router, el sistema operativo y la configuración gráfica para reducir el retardo.</p>
+            <p>Consejos prácticos sobre configuración de red, cableado y ajustes para reducir el retardo en partidas competitivas.</p>
+            <a href="https://www.3djuegos.com/guias/como-bajar-ping-mejorar-latencia-juegos-online" target="_blank" rel="noopener noreferrer" class="read-more">Leer noticia completa &rarr;</a>
         </article>
     </main>
 
     <footer>
-        <p>2026 Noticias sobre Videojuegos y Hardware - Práctica de Lenguajes de Marcas</p>
+        <p>&copy; 2026 Noticias sobre Videojuegos y Hardware - Práctica de Lenguajes de Marcas</p>
     </footer>
 
 </body>
